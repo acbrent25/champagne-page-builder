@@ -6,23 +6,23 @@
 jQuery( document ).ready( function($) {
 
 	/* Editor Toggle Function */
-	function acPb_Editor_Toggle(){
+	function acpb_Editor_Toggle(){
 		if( 'templates/page-builder.php' == $( '#page_template' ).val() ){
 			$( '#postdivrich' ).hide();
-			$( '#fx-page-builder' ).show();
+			$( '#ac-page-builder' ).show();
 		}
 		else{
 			$( '#postdivrich' ).show();
-			$( '#fx-page-builder' ).hide();
+			$( '#ac-page-builder' ).hide();
 		}
 	}
 
 	/* Toggle On Page Load */
-	acPb_Editor_Toggle();
+	acpb_Editor_Toggle();
 
 	/* If user change page template drop down */
 	$( "#page_template" ).change( function(e) {
-		acPb_Editor_Toggle();
+		acpb_Editor_Toggle();
 	});
 
 });

@@ -117,7 +117,12 @@ function acpb_admin_scripts( $hook_suffix ){
 
 		/* Load Editor/Page Builder Toggle Script */
 		wp_enqueue_script( 'acpb-admin-editor-toggle', ACPB_URI . 'assets/admin-editor-toggle.js', array( 'jquery' ), ACPB_VERSION );
-	}
+
+		/* Enqueue CSS & JS For Page Builder */
+        wp_enqueue_style( 'acpb-admin', ACPB_URI. 'assets/admin-page-builder.css', array(), ACPB_VERSION );
+        wp_enqueue_script( 'acpb-admin', ACPB_URI. 'assets/admin-page-builder.js', array( 'jquery', 'jquery-ui-sortable' ), ACPB_VERSION, true );
+    }
+
 }
 
 

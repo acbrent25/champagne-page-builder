@@ -1,0 +1,83 @@
+/**
+ * Page Builder Admin CSS
+**/
+#postdivrich{
+    display:none;
+}
+#ac-page-builder{
+    margin: 20px 0;
+}
+/* Rows */
+.acpb-rows{
+    margin-bottom: 30px;
+}
+.acpb-rows-message{
+    border: 2px dashed #ccc;
+    padding: 10px 20px;
+    text-align: center;
+}
+/* Buttons */
+.acpb-actions{
+    margin-bottom: 30px;
+}
+/* Row */
+.acpb-row{
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.acpb-row-title{
+}
+.acpb-row-title:after{
+    content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+.acpb-handle{
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    cursor: grab;
+}
+.acpb-row-title-text{
+    padding: 10px;
+    display: inline-block;
+}
+.acpb-remove{
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    float: right;
+    cursor: pointer;
+}
+.acpb-remove:hover{
+    background: red;
+    color: #fff;
+}
+.acpb-row-fields{
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+.acpb-row-fields:after{
+    content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+.acpb-row-fields textarea{
+    width: 100%;
+    height: 100px;
+}
+/* 1 column template */
+.acpb-col-1{
+}
+/* 2 columns template */
+.acpb-col-2{
+}
+.acpb-col-2 .acpb-col-2-left{
+    width: 49%;
+    float: left;
+}
+.acpb-col-2 .acpb-col-2-right{
+    width: 49%;
+    float: right;
+}
+
+/* Templates */
+.acpb-templates{
+    display: none;
+}
