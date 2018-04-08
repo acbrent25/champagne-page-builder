@@ -56,42 +56,42 @@ function acpb_editor_callback( $post ){
 	<?php /* Rows template (Going to be hidden) */ ?>
 	<div class="acpb-templates">
 	<?php /* == This is the 1 column row template == */ ?>
-    	<div class="fxpb-row fxpb-col-1">
+    	<div class="acpb-row acpb-col-1">
  
-			<div class="fxpb-row-title">
-				<span class="fxpb-handle dashicons dashicons-sort"></span>
-				<span class="fxpb-row-title-text">1 Column</span>
-				<span class="fxpb-remove dashicons dashicons-trash"></span>
-			</div><!-- .fxpb-row-title -->
+			<div class="acpb-row-title">
+				<span class="acpb-handle dashicons dashicons-sort"></span>
+				<span class="acpb-row-title-text">1 Column</span>
+				<span class="acpb-remove dashicons dashicons-trash"></span>
+			</div><!-- .acpb-row-title -->
 	
-			<div class="fxpb-row-fields">
-				<textarea class="fxpb-row-input" name="" data-field="content" placeholder="Add HTML here..."></textarea>
-				<input class="fxpb-row-input" type="hidden" name="" data-field="type" value="col-1">
+			<div class="acpb-row-fields">
+				<textarea class="acpb-row-input" name="" data-field="content" placeholder="Add HTML here..."></textarea>
+				<input class="acpb-row-input" type="hidden" name="" data-field="type" value="col-1">
         
-		</div><!-- .fxpb-row-fields -->
+		</div><!-- .acpb-row-fields -->
  
-    </div><!-- .fxpb-row.fxpb-col-1 -->
+    </div><!-- .acpb-row.acpb-col-1 -->
 
 	<?php /* == This is the 2 columns row template == */ ?>
-    <div class="fxpb-row fxpb-col-2">
+    <div class="acpb-row acpb-col-2">
  
-        <div class="fxpb-row-title">
-            <span class="fxpb-handle dashicons dashicons-sort"></span>
-            <span class="fxpb-row-title-text">2 Columns</span>
-            <span class="fxpb-remove dashicons dashicons-trash"></span>
-        </div><!-- .fxpb-row-title -->
+        <div class="acpb-row-title">
+            <span class="acpb-handle dashicons dashicons-sort"></span>
+            <span class="acpb-row-title-text">2 Columns</span>
+            <span class="acpb-remove dashicons dashicons-trash"></span>
+        </div><!-- .acpb-row-title -->
  
-        <div class="fxpb-row-fields">
-            <div class="fxpb-col-2-left">
-                <textarea class="fxpb-row-input" name="" data-field="content-1" placeholder="1st column content here..."></textarea>
-            </div><!-- .fxpb-col-2-left -->
-            <div class="fxpb-col-2-right">
-                <textarea class="fxpb-row-input" name="" data-field="content-2" placeholder="2nd column content here..."></textarea>
-            </div><!-- .fxpb-col-2-right -->
-            <input class="fxpb-row-input" type="hidden" name="" data-field="type" value="col-2">
-        </div><!-- .fxpb-row-fields -->
+        <div class="acpb-row-fields">
+            <div class="acpb-col-2-left">
+                <textarea class="acpb-row-input" name="" data-field="content-1" placeholder="1st column content here..."></textarea>
+            </div><!-- .acpb-col-2-left -->
+            <div class="acpb-col-2-right">
+                <textarea class="acpb-row-input" name="" data-field="content-2" placeholder="2nd column content here..."></textarea>
+            </div><!-- .acpb-col-2-right -->
+            <input class="acpb-row-input" type="hidden" name="" data-field="type" value="col-2">
+        </div><!-- .acpb-row-fields -->
  
-    </div><!-- .fxpb-row.fxpb-col-2 -->
+    </div><!-- .acpb-row.acpb-col-2 -->
 
 	</div><!-- .acpb-templates -->
 
